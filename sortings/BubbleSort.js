@@ -19,6 +19,16 @@ function bubbleSort(start, end) {
   }
 }
 
+
+
+
+// Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+
+// Worst complexity: n^2
+// Average complexity: n^2
+// Best complexity: n
+// Space complexity: 1
+
 console.log("before", "loop :" + loop, arr);
 bubbleSort(0, arr.length - 1);
 console.log("after", "loop :" + loop, arr);
